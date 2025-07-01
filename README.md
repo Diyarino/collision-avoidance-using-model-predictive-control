@@ -60,14 +60,13 @@ If you use this code or build upon our work, please cite our paper:
 
 ## 📚 References 
 
-This project builds on concepts from multimodal representation learning, attention-based fusion, and anomaly detection in industrial systems. Below are selected related works and projects that inspired or complement this research:
+Below are selected related works and projects that inspired or complement this research:
 
-<a id="1">[1]</a> Altinses, D., & Schwung, A. (2023, October). Multimodal Synthetic Dataset Balancing: A Framework for Realistic and Balanced Training Data Generation in Industrial Settings. In IECON 2023-49th Annual Conference of the IEEE Industrial Electronics Society (pp. 1-7). IEEE.
+<a id="1">[1]</a> Altinses, D., Torres, D. O. S., Lier, S., & Schwung, A. (2025, February). Neural Data Fusion Enhanced PD Control for Precision Drone Landing in Synthetic Environments. In 2025 IEEE International Conference on Mechatronics (ICM) (pp. 1-7). IEEE.
 
-<a id="2">[2]</a> Altinses, D., & Schwung, A. (2025). Performance benchmarking of multimodal data-driven approaches in industrial settings. Machine Learning with Applications, 100691.
+<a id="1">[2]</a> Altinses, D., Salazar Torres, D. O., Schwung, M., Lier, S., & Schwung, A. (2024). Optimizing Drone Logistics: A Scoring Algorithm for Enhanced Decision Making across Diverse Domains in Drone Airlines. Drones, 8(7), 307.
 
-<a id="3">[3]</a> Altinses, D., & Schwung, A. (2023, October). Deep Multimodal Fusion with Corrupted Spatio-Temporal Data Using Fuzzy Regularization. In IECON 2023-49th Annual Conference of the IEEE Industrial Electronics Society (pp. 1-7). IEEE.
-
+<a id="1">[3]</a> Altinses, D., Torres, D. O. S., Gobachew, A. M., Lier, S., & Schwung, A. (2024). Synthetic Dataset Generation for Optimizing Multimodal Drone Delivery Systems. Drones (2504-446X), 8(12).
 
 
 
