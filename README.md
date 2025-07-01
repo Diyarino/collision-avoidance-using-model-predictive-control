@@ -11,7 +11,7 @@ This repository provides an implementation of a **Model Predictive Control (MPC)
 ## 📽️ Demo
 
 <p align="center">
-  <img src="animation_collision.gif" width="600" height="300" alt="til">
+  <img src="animation_collision.gif" width="600" height="600" alt="til">
 </p>
 
 ## 🧠 Algorithm Summary
