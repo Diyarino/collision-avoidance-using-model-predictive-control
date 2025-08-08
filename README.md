@@ -10,7 +10,8 @@ This repository provides an implementation of a **Model Predictive Control (MPC)
 
 ## 📽️ Demo
 
-This is a demonstration of a clean control
+This project serves as a demonstration of clean and interpretable control using Model Predictive Control, showcasing how optimal control strategies can be designed and executed in a structured, transparent, and modular way.
+
 <p align="center">
   <img src="animation_collision.gif" width="600" height="600" alt="til">
 </p>
@@ -18,27 +19,15 @@ This is a demonstration of a clean control
 To extend this setup to a more realistic scenario, we simulate more complex and dynamic collision routes that better reflect real-world drone behavior. Additionally, we integrate neural networks trained to predict the future trajectory of the other drone based on its past movements and environmental cues. This predictive capability enhances the controller’s ability to anticipate and avoid potential collisions in uncertain or non-deterministic environments.
 
 <p align="center">
-  <img src="classic_control_single.gif" width="600" height="600" alt="til">
+  <img src="classic_control_single.gif" width="300" height="300" alt="Classic Control" style="margin-right: 10px;">
+  <img src="gru_control_single.gif" width="300" height="300" alt="GRU Control" style="margin-right: 10px;">
+  <img src="av_lstm_control_single.gif" width="300" height="300" alt="til">
 </p>
 
 <p align="center">
-  <img src="gru_control_single.gif" width="600" height="600" alt="til">
-</p>
-
-<p align="center">
-  <img src="av_lstm_control_single.gif" width="600" height="600" alt="til">
-</p>
-
-<p align="center">
-  <img src="classic_control_multi.gif" width="600" height="600" alt="til">
-</p>
-
-<p align="center">
-  <img src="gru_control_multi.gif" width="600" height="600" alt="til">
-</p>
-
-<p align="center">
-  <img src="av_lstm_control_multi.gif" width="600" height="600" alt="til">
+  <img src="classic_control_multi.gif" width="300" height="300" alt="Classic Control" style="margin-right: 10px;">
+  <img src="gru_control_multi.gif" width="300" height="300" alt="GRU Control" style="margin-right: 10px;">
+  <img src="av_lstm_control_multi.gif" width="300" height="300" alt="til">
 </p>
 
 
