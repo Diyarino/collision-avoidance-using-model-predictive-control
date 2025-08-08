@@ -25,9 +25,9 @@ To extend this setup to a more realistic scenario, we simulate more complex and 
 </p>
 
 <p align="center">
-  <img src="classic_control_multi.gif" width="300" height="300" alt="Classic Control" style="margin-right: 10px;">
-  <img src="gru_control_multi.gif" width="300" height="300" alt="GRU Control" style="margin-right: 10px;">
-  <img src="av_lstm_control_multi.gif" width="300" height="300" alt="til">
+  <img src="classic_control_multi.gif" width="250" height="250" alt="Classic Control" style="margin-right: 10px;">
+  <img src="gru_control_multi.gif" width="250" height="250" alt="GRU Control" style="margin-right: 10px;">
+  <img src="av_lstm_control_multi.gif" width="250" height="250" alt="til">
 </p>
 
 
