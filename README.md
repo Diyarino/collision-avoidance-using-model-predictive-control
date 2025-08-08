@@ -10,9 +10,37 @@ This repository provides an implementation of a **Model Predictive Control (MPC)
 
 ## 📽️ Demo
 
+This is a demonstration of a clean control
 <p align="center">
   <img src="animation_collision.gif" width="600" height="600" alt="til">
 </p>
+
+To extend this setup to a more realistic scenario, we simulate more complex and dynamic collision routes that better reflect real-world drone behavior. Additionally, we integrate neural networks trained to predict the future trajectory of the other drone based on its past movements and environmental cues. This predictive capability enhances the controller’s ability to anticipate and avoid potential collisions in uncertain or non-deterministic environments.
+
+<p align="center">
+  <img src="classic_control_single.gif" width="600" height="600" alt="til">
+</p>
+
+<p align="center">
+  <img src="gru_control_single.gif" width="600" height="600" alt="til">
+</p>
+
+<p align="center">
+  <img src="av_lstm_control_single.gif" width="600" height="600" alt="til">
+</p>
+
+<p align="center">
+  <img src="classic_control_multi.gif" width="600" height="600" alt="til">
+</p>
+
+<p align="center">
+  <img src="gru_control_multi.gif" width="600" height="600" alt="til">
+</p>
+
+<p align="center">
+  <img src="av_lstm_control_multi.gif" width="600" height="600" alt="til">
+</p>
+
 
 ## 🧠 Algorithm Summary
 
