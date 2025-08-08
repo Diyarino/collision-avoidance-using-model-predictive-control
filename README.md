@@ -30,6 +30,23 @@ To extend this setup to a more realistic scenario, we simulate more complex and 
   <img src="av_lstm_control_multi.gif" width="250" height="250" alt="til">
 </p>
 
+Certainly! Here's a clear and well-structured description you can include in your GitHub README to explain the plot/grid layout:
+
+### 📐 Grid Layout
+
+* **Rows (Scenarios):**
+
+  * **First Row**: The scenario where **only one drone is actively avoiding collisions** while the other drone remains static (i.e., passive or moving on a fixed path).
+  * **Second Row**: Both drones are **actively participating in collision avoidance**, reacting dynamically to each other's movements.
+
+* **Columns (Control Strategies):**
+
+  * **First Column — Classic MPC**: Standard Model Predictive Control using ground-truth paths without forecasting. Safety zones are fixed and symmetric.
+  * **Second Column — GRU-based Forecasting**: The drone uses a GRU (Gated Recurrent Unit) neural network to **predict the future path** of the other drone. This adds anticipation but still relies on a fixed safety zone.
+  * **Third Column — AV-LSTM with Uncertainty-Aware Safety**: Uses an **AV-LSTM (Auto-regressive Variational LSTM)** to forecast both the path and the **uncertainty** of the other drone. The predicted uncertainty is used to dynamically adjust the safety zone size — when the drone is uncertain about where the other might go, it creates a **larger safety margin**, improving robustness to prediction error.
+
+This structured comparison highlights how increasing the intelligence of prediction (from none → GRU → AV-LSTM) and cooperation between drones improves safety and efficiency in navigation.
+
 
 ## 🧠 Algorithm Summary
 
