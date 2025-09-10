@@ -69,8 +69,8 @@ We also recommend using a virtual environment (e.g., `venv` or `conda`) to avoid
 
 ## 🚀 Getting Started
 ```bash
-git clone https://github.com/yourusername/collision-avoidance-mpc.git
-cd collision-avoidance-mpc
+git clone https://github.com/Diyarino/collision-avoidance-using-model-predictive-control.git
+cd collision-avoidance-using-model-predictive-control
 pip install -r requirements.txt
 ```
 
